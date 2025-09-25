@@ -1,0 +1,49 @@
+{
+  "reviews": [
+    {
+      "name": "Ava L.",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Best cappuccino I've had this year.",
+      "business": "Blueprint Coffee",
+      "city": "St. Louis, MO",
+      "price": "$$"
+    },
+    {
+      "name": "Diego R.",
+      "rating": 4,
+      "date": "2025-07-02",
+      "text": "Ribs were tender; long wait but worth it.",
+      "business": "Pappy\u2019s Smokehouse",
+      "city": "St. Louis, MO",
+      "price": "$$"
+    },
+    {
+      "name": "Sam K.",
+      "rating": 5,
+      "date": "2025-06-11",
+      "text": "Huge park, museums are fantastic and free!",
+      "business": "Forest Park",
+      "city": "St. Louis, MO",
+      "price": "Free"
+    },
+    {
+      "name": "Priya C.",
+      "rating": 4,
+      "date": "2025-05-19",
+      "text": "Great vibe, outlets at every table, friendly staff.",
+      "business": "Blueprint Coffee",
+      "city": "St. Louis, MO",
+      "price": "$$"
+    },
+    {
+      "name": "James T.",
+      "rating": 4,
+      "date": "2025-04-04",
+      "text": "Brisket sandwich was solid; sides were okay.",
+      "business": "Pappy\u2019s Smokehouse",
+      "city": "St. Louis, MO",
+      "price": "$$"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SLUview — Mini Yelp Replica</title>
+    <link rel="stylesheet" href="slu.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>SLUview</h1>
+      <p class="tagline">find places you’ll love — built for HW1</p>
+    </header>
+
+    <main class="grid">
+      <!-- Column A: Filters / Navigation -->
+      <aside class="col filters">
+        <h2>Filter</h2>
+        <div class="filter-group">
+          <label>Category</label>
+          <select>
+            <option>All</option>
+            <option>Restaurant</option>
+            <option>Café</option>
+            <option>Attraction</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Price</label>
+          <div class="chips">
+            <button>$</button><button>$$</button><button>$$$</button><button>$$$$</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label>Rating</label>
+          <div class="chips">
+            <button>★ 3+</button><button>★ 4+</button><button>★ 4.5+</button>
+          </div>
+        </div>
+        <p class="note">These controls are for design only (not functional).</p>
+      </aside>
+
+      <!-- Column B: Featured Businesses -->
+      <section class="col featured">
+        <h2>Featured</h2>
+        <div class="cards" id="featured-cards">
+          <article class="card">
+            <h3>Blueprint Coffee</h3>
+            <p class="meta">Cafe • St. Louis, MO • $$ • ★ 4.6</p>
+            <p class="blurb">Neighborhood café with thoughtful roasts and a cozy vibe.</p>
+          </article>
+          <article class="card">
+            <h3>Forest Park Visitor Center</h3>
+            <p class="meta">Attraction • St. Louis, MO • Free • ★ 4.8</p>
+            <p class="blurb">Gateway to one of the largest urban parks in the US.</p>
+          </article>
+          <article class="card">
+            <h3>Pappy’s Smokehouse</h3>
+            <p class="meta">Restaurant • St. Louis, MO • $$ • ★ 4.7</p>
+            <p class="blurb">Famous Memphis-style ribs with a loyal local following.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Column C: Latest Reviews -->
+      <section class="col reviews">
+        <h2>Latest Reviews</h2>
+        <div id="reviews"></div>
+        <script src="app.js"></script>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built for SLU CSCI Web Technologies — HW1 • <a href="#" aria-disabled="true">Ethics of scraping</a></p>
+    </footer>
+
+    <!-- For undergrads, you can omit app.js and paste static cards into #reviews. -->
+    <!--script src="app.js"></script-->
+  </body>
+</html>
