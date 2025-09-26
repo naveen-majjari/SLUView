@@ -1,0 +1,13 @@
+# Replace REPLACE-ME with your chosen business slug.
+# Basic fetch (follows redirects), save HTML
+curl -L "https://www.yelp.com/biz/REPLACE-ME/reviews" -o listing.html
+
+# Custom User-Agent
+curl -L -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" "https://www.yelp.com/biz/REPLACE-ME/reviews" -o listing_ua.html
+
+# Accept-Language (French as example)
+curl -L -H "Accept-Language: fr-FR" "https://www.yelp.com/biz/REPLACE-ME/reviews" -o listing_fr.html
+
+# Save cookies then reuse
+curl -L --cookie-jar cookies.txt "https://www.yelp.com/biz/REPLACE-ME/reviews" -o listing_cookies.html
+curl -L --cookie cookies.txt "https://www.yelp.com/biz/REPLACE-ME/reviews" -o listing_reuse.html
