@@ -1,0 +1,3 @@
+# Netscape HTTP Cookie File
+.yelp.com   TRUE    /   FALSE   2145916800  sessionid   abcdef1234567890
+.yelp.com   TRUE    /   FALSE   2145916800  locale      en_US
